@@ -2,13 +2,43 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Zoey's Project</title>
-
+<style>
+	*{box-sizing: border-box;}
+	#container{
+		width:800px; background-color:thistle; height 600px; margin:0 auto;
+	}
+	p{
+		color:white;
+	}
+	.floatLeft{
+		float:left;
+		width:250px;
+		background-color:cornflowerblue;
+	}
+	footer{
+		clear:both;
+	}
+	#main{
+		margin-right: 20px;
+		background-color: bisque;
+		padding-left: 20px;
+	}
+	</style>
 	</head>
 <body>
-	<h1>Welcome</h1>
-	<h2>This is my <i>first</i> page</h2>
-	<h3>Thank you for checking it out</h3>
-	
+	<div id="container" >
+	<header><h1 title="I'm a tooltip!" style="color:orchid">Hello</h1></header>
+	<h2 title="I'm a tooltip too.">Thank you for looking at this <i>website</i></h2>
+	<h3 title="I am a tooltip as well.">These are pictures of my cats, Cheetoh, and Anya.</h3>
+	<nav class="floatLeft"><p title="I'm a tooltip also.">Cheetoh is the cat shown <b>twice</b>, Anya is the one with the <b>dark</b> ears and nose.</p></nav>
+	<main id="main" class="floatLeft"><img src="demo.jpeg" style="width:300px;" alt="Cloning a GitHub site"/></main>
+	<main class="floatLeft"><img src="dem2.jpeg" style="width:150px;" alt="Cloning a GitHub"/></main>
+	<main class="floatLeft"><img src="dem3.jpeg" style="width:150px;" alt="Cloning a GitHub"/></main>
+	<footer>Copyright Zoey Bayer 2025</footer>
+		
+
+	</div>
 </body>
 </html>
