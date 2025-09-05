@@ -1,3 +1,14 @@
 h1{
     color:rgba(43, 125, 226, 0.717);
 font-size: 50px;}
+
+#maintitle{
+    text-align: center;
+    font-family: 'Courier New', Courier, serif;
+    
+}
+.maincontents{
+    text-align: center;
+    font-family: 'Courier New', Courier, serif;
+    font-size: 20px;
+}
